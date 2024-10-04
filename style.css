@@ -210,35 +210,28 @@ section h2 {
 }
 
 /* Contact Section */
-#contact {
-    background-color: #f8f9fa;
-    animation: fadeIn 1.5s ease-out;
-}
-
-#contact form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-#contact .form-label {
-    font-weight: bold;
-}
-
-#contact .form-control {
-    border-radius: 5px;
-    border: 1px solid #ced4da;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-#contact .form-control:focus {
-    border-color: #6610f2;
-    box-shadow: 0 0 0 0.2rem rgba(102, 16, 242, 0.25);
-}
 
 #contact .btn-primary {
     width: 100%;
+    background-color: #6610f2;
+    border-color: #6610f2;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    font-size: 1rem;
+    padding: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
 }
+
+#contact .btn-primary i {
+    margin-right: 10px; /* Adds space between icon and text */
+}
+
+#contact .btn-primary:hover {
+    background-color: #520dc2;
+    border-color: #520dc2;
+}
+
 
 /* Footer */
 footer {
